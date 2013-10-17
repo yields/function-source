@@ -1,0 +1,14 @@
+{
+  "name": "function-source",
+  "repo": "yields/function-source",
+  "description": "get a function source.",
+  "version": "0.0.1",
+  "keywords": ["source", "function"],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "development": {
+    "component/assert": "*",
+    "visionmedia/mocha": "*"
+  }
+}
