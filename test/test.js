@@ -13,14 +13,6 @@ describe('function-source', function(){
   })
 
   it('(dummy)', function(){
-    var src = [
-      'for (var k in arguments) {',
-      '  assert;',
-      '}',
-      '',
-      'assert;',
-    ].join('\n');
-
     assert(dummy.src == source(dummy).trim());
   })
 
