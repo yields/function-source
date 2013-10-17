@@ -11,7 +11,9 @@
 
 ## API
 
+### source(fn)
 
+  `fn` may be a `Function` or a `String`.
 
 ## License
 
