@@ -17,7 +17,7 @@ function source(fn){
   if ('string' != typeof fn) return source(fn.toString());
 
   var match;
-  if (match = /^function *\S*? *\(.*\) *{([^]*)}$/.exec(fn)) {
+  if (match = /^function *\S*? *\([^)]*\) *{([^]*)}$/.exec(fn)) {
     var space = /^(?:\n*)?(\s*)/.exec(match[1])[1];
     var expr = new RegExp('^' + space, 'gm');
     return match[1].replace(expr, '');

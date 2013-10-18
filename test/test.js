@@ -20,6 +20,10 @@ describe('function-source', function(){
     assert(dummy.src == source(dummy.toString()).trim())
   })
 
+  it('(function(\n){ "baz"; })', function(){
+    assert('"baz";' == source('function(\n){ "baz"; }').trim());
+  })
+
   // src
   dummy.src = [
     'for (var k in arguments) {',
