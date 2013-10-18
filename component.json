@@ -2,7 +2,7 @@
   "name": "function-source",
   "repo": "yields/function-source",
   "description": "get a function source.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": ["source", "function"],
   "license": "MIT",
   "main": "index.js",
